@@ -1,0 +1,113 @@
+body
+{
+	margin: 0;
+	background: #eee;
+	font-family: 'Lato', sans-serif;
+}
+#srodek
+{
+	width: 1000px;
+	min-height: 100vh;
+	background: #aaa;
+	margin: auto;
+	position: relative;
+}
+#menu
+{
+	position: fixed;
+	width: 1000px;
+	background: #222;
+	color: white;
+	font-size: 20px;
+}
+#menu a
+{
+	color: #eee;
+	text-decoration: none;
+	transition-duration: 0.2s;
+	height: 50px;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 15px;
+	line-height: 50px;
+}
+#menu a:hover
+{
+	color: white;
+	background: #444;
+}
+#menu div
+{
+	display: inline-block;
+	padding: 0 15px;
+	height: 50px;
+	line-height: 50px;
+}
+#menu div:first-child
+{
+	transform: scale(1.25) rotate(-2deg);
+}
+form
+{
+	margin-left: 10px;
+}
+#lista
+{
+	padding-top: 60px;
+	margin: 0 10px;
+	column-count: 4;
+}
+#lista a
+{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 1.5;
+}
+#prawo
+{
+	position: absolute;
+	right: 0;
+	line-height: 45px !important;
+}
+#prawo input
+{
+	vertical-align: middle;
+	font-size: 16px;
+	margin-left: 8px;
+}
+#tytul
+{
+	background: orangered;
+}
+.strona
+{
+	position: relative;
+	transition-duration: 0.2s;
+}
+.strona:hover
+{
+	background: #bbb;
+}
+.strona a:first-child
+{
+	display: block;
+	padding-left: 0.25em;
+}
+.strona a:last-child
+{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	opacity: 0;
+	transition-duration: 0.2s;
+}
+.strona:hover a:last-child
+{
+	opacity: 1;
+	font-size: 16px !important;
+}
+.strona a:last-child:hover
+{
+	color: red !important;
+}

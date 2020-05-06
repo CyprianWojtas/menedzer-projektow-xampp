@@ -1,0 +1,2 @@
+#Do poprawnego działania pliku .htaccess wymagana jest ta linijka
+RewriteBase /
